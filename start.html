@@ -1,0 +1,31 @@
+<html>
+<head> 
+    <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+</head>
+
+<body>
+
+<div id="pp">
+<button v-on:click="say('2')"> xd</button>
+<button v-on:click="say(':P')"> :P</button>
+<button v-on:click="say('1')"> lol</button>
+<button v-on:click="say(':P')"> Pg</button>
+<button v-on:click="say('2')"> Gniok</button>
+<script>
+
+var app4 = new Vue({
+    el: "#pp",
+    methods: {
+        say: function(message) {
+            document.write(message)
+        }
+       
+    }
+})
+
+</script>
+
+</body>
+
+
+</html>
